@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | ATS Generator</title>
+</head>
+<body>
+    <h1>ini list untuk test</h1>
+</body>
+</html>
+
+<script>
+fetch('http://localhost:5000/api/data')
+  .then(response => response.json())
+  .then(data => {
+    // Process the retrieved data
+    console.log(data);
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
+</script>
