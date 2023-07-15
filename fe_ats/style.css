@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, Tahoma, Arial, Helvetica, sans-serif;
+  /* background-color: #999; */
+  padding: 0;
+  margin: 0;
+}
+
+h1{
+  color: #333;
+  font-size: 25px;
+}
+
+h2{
+  color: #333;
+  font-size: 15px;
+}
+
+h3{
+  color: #333;
+  font-size: 14px;
+}
+
+h4{
+  color: #333;
+  font-size: 13px;
+}
+
+p{
+  color: #555;
+  font-size: 13px;
+}
+
+li{
+  color: #555;
+  font-size: 13px;
+}
+
+hr{
+  border-width: 0.1em;
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -25px;
+}
+
+.container {
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #fff;
+  /* width: 100%;
+  max-width: 50%; */
+  margin: 0 auto;
+  padding: 5% 10% 5% 10%;
+}
+
+.education-isi p{
+  margin-top: -0.7em;
+}
+
+.flex-identity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-identity h1{
+  margin-bottom: -5px;
+}
+
+.main-identity{
+  margin: 15px;
+}
+
+.round-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  border: 3px solid #999;
+  margin: 15px;
+}
+
+.skill-bahasa{
+  display: flex;
+  justify-content: space-around;
+}
+
+.work-experience{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.work-detail{
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.work-detail p{
+  width: 20em;
+}
+
+.isi h4{
+  margin-top: -0.7em;
+}
+
+.isi ul{
+  margin-top: -0.3em;
+}
